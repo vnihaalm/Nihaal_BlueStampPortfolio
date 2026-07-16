@@ -1,3 +1,4 @@
+
 # Third Eye for the Blind
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
@@ -11,9 +12,8 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Nihaal M | Thornton Middle School | Mechanical Engineering | 7
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+**<img width="4284" height="5712" alt="Nihaal M" src="https://github.com/user-attachments/assets/125e3f95-cc14-459f-a89d-2ea083d5b3c2" />
 
-![Headstone Image](logo.svg)
   
 # Final Milestone
 
@@ -45,7 +45,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/degugbqGLYA?si=Iyi2pWbdsIU1mvNx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
@@ -60,17 +60,44 @@ For your first milestone, describe what your project is and how you plan to buil
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-```
+//VISIT : www.robotechmaker.com
+  const int pingTrigPin = 7; //Trigger connected to PIN 7   
+  const int pingEchoPin = 6; //Echo connected yo PIN 6   
+  int buz= A4; //Buzzer to PIN 4   
+  void setup() {   
+    Serial.begin(9600);   
+    pinMode(buz, OUTPUT);   
+  }   
+  void loop()   
+  {  
+  //digitalWrite(buz, HIGH); 
+  long duration, cm;   
+  pinMode(pingTrigPin, OUTPUT);   
+  digitalWrite(pingTrigPin, LOW);   
+  delayMicroseconds(2);   
+  digitalWrite(pingTrigPin, HIGH);   
+  delayMicroseconds(5);   
+  digitalWrite(pingTrigPin, LOW);   
+  pinMode(pingEchoPin, INPUT);   
+  duration = pulseIn(pingEchoPin, HIGH);   
+  cm = microsecondsToCentimeters(duration);   
+  if(cm<=20 && cm>0)   
+  {   
+  int d= map(cm, 1, 100, 20, 2000);   
+  digitalWrite(buz, HIGH);   
+  delay(100);   
+  digitalWrite(buz, LOW);   
+  delay(d);  
+  }   
+  Serial.print(cm);    
+  Serial.print("cm");   
+  Serial.println();   
+  delay(100);   
+  }   
+  long microsecondsToCentimeters(long microseconds)   
+  {   
+  return microseconds / 29 / 2;   
+  } ```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
