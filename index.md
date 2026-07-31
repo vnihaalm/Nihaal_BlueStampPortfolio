@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Nihaal M | Thornton Middle School | Mechanical Engineering | 7
 
-**<img width="4284" height="5712" alt="Nihaal M" src="https://github.com/user-attachments/assets/125e3f95-cc14-459f-a89d-2ea083d5b3c2" />
+**<img width="4284" height="2000" alt="Nihaal M" src="https://github.com/user-attachments/assets/125e3f95-cc14-459f-a89d-2ea083d5b3c2" />
 
 # Demo Night Presentation
 
@@ -52,7 +52,7 @@ My project is called the Third Eye for the Blind. For this milestone, I made an 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
+c++
 //VISIT : www.robotechmaker.com
   const int pingTrigPin = 7; //Trigger connected to PIN 7   
   const int pingEchoPin = 6; //Echo connected yo PIN 6   
@@ -90,7 +90,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
   long microsecondsToCentimeters(long microseconds)   
   {   
   return microseconds / 29 / 2;   
-  } ```
+  }
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -98,8 +98,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Raspberry Pi | Control Hub | $123 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X)"> Link </a> |
+|  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
