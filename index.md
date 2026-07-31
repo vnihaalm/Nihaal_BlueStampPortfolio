@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Nihaal M | Thornton Middle School | Mechanical Engineering | 7
 
-**<img width="4284" height="5000" alt="Nihaal M" src="https://github.com/user-attachments/assets/125e3f95-cc14-459f-a89d-2ea083d5b3c2" />
+**<img width="4284" height="3100" alt="Nihaal M" src="https://github.com/user-attachments/assets/125e3f95-cc14-459f-a89d-2ea083d5b3c2" />
 
 # Demo Night Presentation
 
