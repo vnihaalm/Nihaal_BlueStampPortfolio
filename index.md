@@ -1,6 +1,6 @@
 
 # Third Eye for the Blind
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The goal of this project is to help blind people know what road dangers are around them. It uses AI algorithms to detect potholes and speed bumps with a high accuracy. Some of the biggest challenges I faced when working on this project involved soldering issues and that the RAM on the Raspberry Pi is not enough to support the AI models that I was making.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -14,7 +14,10 @@ You should comment out all portions of your portfolio that you have not complete
 
 **<img width="4284" height="5712" alt="Nihaal M" src="https://github.com/user-attachments/assets/125e3f95-cc14-459f-a89d-2ea083d5b3c2" />
 
-  
+# Demo Night Presentation
+
+<iframe width="964" height="542" src="https://www.youtube.com/embed/-F_jg9R8UUs" title="Nihaal M. Demo Night Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -31,27 +34,17 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+In the first milestone I used an ultrasonic sensor to detect walls and other obstructions along the way. This time for my second milestone, I decided to detect faces using a Raspberry Pi and a camera. When the camera detects a face, it draws a blue rectangle around the face and orange rectangles around the eyes. This module uses the K - means algorithm which finds similarities of the picture you give it and the pictures it was trained using. Some challenges included messy wiring and it was hard to get a camera up and working. Some next steps might include detecting potholes and speed bumps using the camera
 
 <iframe width="962" height="541" src="https://www.youtube.com/embed/_X6za709OiI" title="Nihaal M. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+My project is called the Third Eye for the Blind. For this milestone, I made an ultrasonic sensor module that can detect walls and other surfaces and alert the person using a buzzer. I started by using a breadboard first, to ensure that all the connections are correct. Some next steps would be to solder all of these connections on to a PERF board to make it look much cleaner and simpler.
 
 <iframe width="909" height="511" src="https://www.youtube.com/embed/degugbqGLYA" title="Nihaal M. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
 
 # Schematics 
 <img width="952" height="536" alt="Screenshot 2026-07-16 at 1 49 37 PM" src="https://github.com/user-attachments/assets/ccf8aaf7-d4f2-4a4e-905c-b0c9325e5787" />
